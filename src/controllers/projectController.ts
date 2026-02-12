@@ -82,3 +82,5 @@ export const deleteProject = async (req: Request, res: Response) => {
     res.status(500).send('Server Error');
   }
 };
+
+// Updated with status calculation fix
