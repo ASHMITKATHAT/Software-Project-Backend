@@ -13,3 +13,4 @@ router.put('/:id', protect, authorize(['Admin']), validateRequest(projectSchema)
 router.delete('/:id', protect, authorize(['Admin']), validateRequest(projectIdSchema), deleteProject);
 
 export default router;
+// Added member management endpoints
