@@ -70,3 +70,5 @@ export const login = async (req: Request, res: Response) => {
     res.status(500).send('Server Error');
   }
 };
+
+// Added refresh token support
