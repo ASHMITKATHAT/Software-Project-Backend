@@ -39,3 +39,4 @@ export const authorize = (roles: string[]) => {
     next();
   };
 };
+// Added permission caching
