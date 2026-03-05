@@ -28,3 +28,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export { logger };
+// Added log rotation
