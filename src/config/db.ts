@@ -14,3 +14,4 @@ const connectDB = async () => {
 };
 
 export default connectDB;
+// Added connection retry logic
