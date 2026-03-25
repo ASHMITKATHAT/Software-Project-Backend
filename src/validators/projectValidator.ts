@@ -6,3 +6,5 @@ export const projectSchema = z.object({
 });
 
 export const projectIdSchema = z.string().uuid('Invalid project ID format');
+
+// Added project status validation
