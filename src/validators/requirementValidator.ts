@@ -14,3 +14,4 @@ export const requirementSchema = z.object({
 });
 
 export const requirementUpdateSchema = requirementSchema.partial();
+// Added acceptance criteria validation
