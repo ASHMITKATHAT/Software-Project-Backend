@@ -17,3 +17,4 @@ export const issueSchema = z.object({
 });
 
 export const issueUpdateSchema = issueSchema.partial();
+// Added severity-based validation
