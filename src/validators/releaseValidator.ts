@@ -13,3 +13,4 @@ export const releaseSchema = z.object({
 });
 
 export const releaseUpdateSchema = releaseSchema.partial();
+// Added version format validation
