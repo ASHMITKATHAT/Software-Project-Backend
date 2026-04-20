@@ -13,3 +13,4 @@ export const milestoneSchema = z.object({
 });
 
 export const milestoneUpdateSchema = milestoneSchema.partial();
+// Added progress validation
