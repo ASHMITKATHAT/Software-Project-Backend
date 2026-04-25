@@ -13,3 +13,4 @@ export const codeReviewSchema = z.object({
 });
 
 export const codeReviewUpdateSchema = codeReviewSchema.partial();
+// Added reviewer validation
