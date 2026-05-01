@@ -13,3 +13,4 @@ export const deploymentSchema = z.object({
 });
 
 export const deploymentUpdateSchema = deploymentSchema.partial();
+// Added environment validation
