@@ -16,3 +16,4 @@ export const transactionSchema = z.object({
   date: z.string().optional(),
   receipt: z.string().optional(),
 });
+// Added transaction validation
