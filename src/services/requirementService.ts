@@ -46,3 +46,4 @@ export const deleteRequirement = async (id: string) => {
     throw error;
   }
 };
+// Added bulk operations
