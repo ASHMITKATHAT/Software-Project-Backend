@@ -61,3 +61,4 @@ export const addIssueComment = async (issueId: string, comment: { author: string
     throw error;
   }
 };
+// Added batch status update
