@@ -65,3 +65,4 @@ export const getReleaseChangelogs = async (releaseId: string) => {
     throw error;
   }
 };
+// Added rollback support
