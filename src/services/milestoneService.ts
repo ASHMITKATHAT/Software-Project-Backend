@@ -57,3 +57,4 @@ export const updateMilestoneProgress = async (id: string, progress: number) => {
     throw error;
   }
 };
+// Added dependency checking
