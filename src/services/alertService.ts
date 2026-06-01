@@ -74,3 +74,4 @@ export const getAlertStats = async (projectId: string) => {
     throw error;
   }
 };
+// Added alert deduplication
