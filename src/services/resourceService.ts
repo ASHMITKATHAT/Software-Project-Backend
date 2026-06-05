@@ -64,3 +64,4 @@ export const deallocateResource = async (id: string) => {
     throw error;
   }
 };
+// Added utilization calculation
