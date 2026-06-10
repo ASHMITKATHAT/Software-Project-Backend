@@ -73,3 +73,4 @@ export const getBudgetSummary = async (projectId: string) => {
     throw error;
   }
 };
+// Added budget forecasting
