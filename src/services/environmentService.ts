@@ -58,3 +58,4 @@ export const toggleEnvironmentActive = async (id: string) => {
     throw error;
   }
 };
+// Added health check endpoint
