@@ -55,3 +55,4 @@ export const updateDeploymentStatus = async (id: string, status: string) => {
     throw error;
   }
 };
+// Added deployment hooks
