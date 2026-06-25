@@ -69,3 +69,4 @@ export const updateReviewerStatus = async (id: string, userId: string, status: s
     throw error;
   }
 };
+// Added auto-approval logic
