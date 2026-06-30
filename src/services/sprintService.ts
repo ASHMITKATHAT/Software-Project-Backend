@@ -64,3 +64,4 @@ export const completeSprint = async (id: string) => {
     throw error;
   }
 };
+// Added velocity tracking
