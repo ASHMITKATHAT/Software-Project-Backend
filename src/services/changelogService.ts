@@ -56,3 +56,4 @@ export const publishChangelog = async (id: string) => {
     throw error;
   }
 };
+// Added auto-generation
